@@ -14,3 +14,12 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ## Creating the project using vite
 ## > npm create vite@latest react-crash-2025
+
+## Installing react tailwind
+## > npm install -D @tailwindcss/vite
+## > npm install -D tailwindcss postcss autoprefixer
+## > npx tailwindcss-cli@latest init -p
+
+## > npm install -D tailwindcss@latest autoprefixer@latest postcss@latest @tailwindcss/postcss@latest
+
+## > npm install -D tailwindcss@3 postcss autoprefixer
