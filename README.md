@@ -25,3 +25,6 @@ If you are developing a production application, we recommend using TypeScript wi
 ## > npm install -D tailwindcss@latest autoprefixer@latest postcss@latest @tailwindcss/postcss@latest
 
 ## > npm install -D tailwindcss@3 postcss autoprefixer
+
+## > npm i react-icons
+## > npm i react-router-dom
