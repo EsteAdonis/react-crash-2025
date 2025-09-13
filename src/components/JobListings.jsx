@@ -10,8 +10,8 @@ export default function JobListings({ isHome = false} ) {
 
 	useEffect(() => {
 		const fetchJobs = async() => {
-			const apiUrl = isHome ? 'http://localhost:8000/jobs?_limit=3': 'http://localhost:8000/jobs';
-			await sleep(isHome ? 400 : 1000);
+			const apiUrl = isHome ? '/api/jobs?_limit=3': '/api/jobs';
+			await sleep(isHome ? 400 : 900);
 			try {
 				const res = await fetch(apiUrl);
 				const data = await res.json();
@@ -40,7 +40,7 @@ export default function JobListings({ isHome = false} ) {
 								))}								
 							</div>)
 						}
-						
+
 					</div>
 				</section>					
 		</div>
