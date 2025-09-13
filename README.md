@@ -28,3 +28,22 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ## > npm i react-icons
 ## > npm i react-router-dom
+
+## json-server
+- npmjs.com/package/json-server
+## intalation
+## > npm install json-server
+
+## To execute
+## > npx json-server db.json
+
+## Add the next line in package.json
+## "scripts": {
+## 		...
+##  	"server": "json-server --watch src/jobs.json --port 8000"
+##  },
+
+## On terminal
+## > npm run server
+
+## > npm i react-spinners
