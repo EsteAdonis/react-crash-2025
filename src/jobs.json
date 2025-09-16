@@ -83,34 +83,6 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
       }
-    },
-    {
-      "id": "aa24",
-      "title": "New Job",
-      "type": "",
-      "location": "Guadalajara",
-      "description": "New Job",
-      "salary": "$100K - 125K",
-      "company": {
-        "name": "Adonis",
-        "description": "Develop",
-        "contactEmail": "esteban_ochoamx@hotmail.com",
-        "contactPhone": "351235123"
-      }
-    },
-    {
-      "id": "f0de",
-      "title": "Test Job 1",
-      "type": "",
-      "location": "Guadalajara",
-      "description": "This is a test",
-      "salary": "",
-      "company": {
-        "name": "Adonis",
-        "description": "Company Description",
-        "contactEmail": "esteban_ochoamx@hotmail.com",
-        "contactPhone": "32512351"
-      }
     }
   ]
 }
