@@ -47,3 +47,4 @@ If you are developing a production application, we recommend using TypeScript wi
 ## > npm run server
 
 ## > npm i react-spinners
+## > npm i react-toastify
