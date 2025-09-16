@@ -1,4 +1,6 @@
-import { Outlet } from "react-router-dom"
+import { Outlet } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
+import 'react-toastify/dis/ReactToastify.css';
 import Navbar from '../components/Navbar';
 
 export default function MainLayout() {
@@ -6,6 +8,7 @@ export default function MainLayout() {
 		<>
 			<Navbar />
 			<Outlet />
+			<ToastContainer />
 		</>
 	)
 }
