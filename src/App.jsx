@@ -33,7 +33,6 @@ const App = () => {
 	}
 
 	const updateJob = async (job) => {
-		console.log(job);
 		const res = await fetch(`/api/jobs/${job.id}`, {
 			method: 'put',
 			headers: {
